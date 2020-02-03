@@ -1,0 +1,10 @@
+<h1>Minhas noticias</h1>
+
+{% for noticia in noticias %}
+
+    <li>{{ noticia.titulo }}</li>
+    <p>{{ noticia.noticia }}</p>
+    <address>{{ noticia.data_public }}</address>
+    <br><br>
+
+{% endfor %}
